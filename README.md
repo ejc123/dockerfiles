@@ -40,17 +40,17 @@ Erlang docker files (available [here](https://hub.docker.com/_/erlang)):
 
 These include the following LFE versions:
 
-- 1.3-dev
+- 2.1.1
 
 Dependeing upon image type, some or all of the following Erlang versions are
 available:
 
-- 17.5 (only with standard image type)
-- 18.3 (standard and slim)
-- 19.3 (standard and slim)
-- 20.3 (all)
-- 21.3 (all)
-- 22.0 (all)
+- 20.3 (only with standard image type)
+- 21.3 (standard and slim)
+- 22.3 (standard and slim)
+- 23.3 (all)
+- 24.3 (all)
+- 25.2 (all)
 
 The LFE images are published with tags in the following format:
 
@@ -58,10 +58,10 @@ The LFE images are published with tags in the following format:
 [org]/[project]:[lfe-version]-[erlang-version]-[image-type]
 ```
 
-For example, LFE v1.3 running on Erlang 20.3 in an Alpine-based container would be:
+For example, LFE v2.1.1 running on Erlang 23.3 in an Alpine-based container would be:
 
 ```
-lfex/lfe:1.3-20.3-alpine
+lfex/lfe:2.1.1-23.3-alpine
 ```
 
 Note that the Alpine image is considered the canonical one, thus the `latest`
